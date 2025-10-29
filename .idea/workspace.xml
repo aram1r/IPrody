@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPrody/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPrody/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lesson-8",
+    "git-widget-placeholder": "#4 on lesson-8",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/IPrody/IPrody",
     "node.js.detected.package.eslint": "true",
@@ -105,21 +107,11 @@
       <workItem from="1761509895333" duration="152000" />
       <workItem from="1761591060424" duration="3094000" />
       <workItem from="1761652272507" duration="4585000" />
+      <workItem from="1761718905101" duration="1808000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

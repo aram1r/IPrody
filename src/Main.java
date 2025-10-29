@@ -44,6 +44,18 @@ public class Main {
     }
 
     private static boolean isPalindrome(String source) {
-        return new StringBuilder(source).reverse().toString().equalsIgnoreCase(source);
+        int i = 0, j = source.length() - 1;
+        while (i < j) {
+            char a = Character.toLowerCase(source.charAt(i));
+            char b = Character.toLowerCase(source.charAt(j));
+            if (a != b) {
+                return false;
+            } else {
+                i++;
+                j--;
+            }
+        }
+        return true;
+//        return new StringBuilder(source).reverse().toString().equalsIgnoreCase(source);
     }
 }

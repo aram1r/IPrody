@@ -23,14 +23,17 @@ public class Dictionary{
     public void start() {
         char[] wordChars = wordToGuess.toCharArray();
         System.out.println("Я загадал слово на английском, введи его:");
-        for(;;) {
+        while(true) {
             Scanner input = new Scanner(System.in);
             //Проверяем не пустое ли поле ввода
             if (input.hasNextLine()) {
                 String word = input.nextLine();
                 //Проверяем не угадано ли слово
-                if (!word.trim().equals(wordToGuess)) {
-
+                boolean isEqual = word.trim().equals(wordToGuess);
+                if (isEqual) { //Выводим сообщение о том что слово угадано, выходим из цикла
+                    System.out.println("Слово угадано верно");
+                    break;
+                }  else {
                     int[] rightIndexes = new int[wordChars.length];
                     char[] wordChars2 = word.toCharArray();
 
@@ -48,7 +51,11 @@ public class Dictionary{
                     }
 
                     //Если совпал выводим совпавшие
-                    if (found) {
+                    if (!found) {
+                        for (int i=0; i<15; i++) {
+                            System.out.print("✶");
+                        }
+                    } else {    //Выводим 15 звёзд если не совпал не один
                         System.out.println("Слово угадано не верно, но я дам подсказку, покажу какие буквы " +
                                 "занимают свои места");
                         for (int i = 0; i<rightIndexes.length; i++) {
@@ -61,14 +68,7 @@ public class Dictionary{
                         for (int i= rightIndexes.length; i<15; i++) {
                             System.out.print("✶");
                         }
-                    } else {    //Выводим 15 звёзд если не совпал не один
-                        for (int i=0; i<15; i++) {
-                            System.out.print("✶");
-                        }
                     }
-                }  else {   //Выводим сообщение о том что слово угадано, выходим из цикла
-                    System.out.println("Слово угадано верно");
-                    break;
                 }
             } else {
                 System.out.println("Поле ввода пустое");
