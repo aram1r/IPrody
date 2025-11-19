@@ -1,7 +1,20 @@
 package exceptions;
 
 public class ArrayDataException extends NumberFormatException {
-    public ArrayDataException(String message) {
-        super(message);
+    int i, j;
+    public ArrayDataException(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
+
+    public ArrayDataException(int i) {
+        this.i = i;
+    }
+
+    public int getI() {
+        return i;
+    }
+    public int getJ() {
+        return j;
     }
 }
