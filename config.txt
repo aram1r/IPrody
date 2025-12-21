@@ -1,0 +1,4 @@
+maximumFileSize=15000
+level=DEBUG
+path=D:\Programming\IPrody\config.txt
+fileName=log
