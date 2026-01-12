@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/assertions/AssertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/assertions/AssertResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/assertions/Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/assertions/ContainsAssertResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/assertions/EqualsAssertResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/execution/Execution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/execution/ExecutionItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/marker/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/printer/ColorCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/printer/FilePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/printer/StdoutPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/runner/ExtendedTestAutomationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/framework/runner/TestAutomationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CalculatorLinesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPrody/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IPrody/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "Merging lesson-24",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/IPrody/IPrody",
     "node.js.detected.package.eslint": "true",
@@ -59,7 +84,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Programming/IPrody/IPrody/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -105,10 +130,22 @@
       <workItem from="1761591060424" duration="3094000" />
       <workItem from="1761652272507" duration="5835000" />
       <workItem from="1761659334052" duration="72000" />
+      <workItem from="1768237674322" duration="4479000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
