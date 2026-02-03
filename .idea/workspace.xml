@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/delete.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/joins.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tcl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/update.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/DatabaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/BookDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/BorrowedBooksDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/BorrowedBooksDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/ReaderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/dao/ReaderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/model/Borrowed_book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/model/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libraryAPI/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4/storage_v2/_src_/database/postgres.edMnLQ/schema/Library.m7wgbQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4/storage_v2/_src_/database/postgres.edMnLQ/schema/Library.m7wgbQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPrody.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IPrody.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IPrody/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/books.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/borrowed_books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/borrowed_books.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delete.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/delete.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insert.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/insert.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joins.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/joins.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/readers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tcl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/tcl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/update.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqls/update.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,41 +78,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.insert.sql.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson-30&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/IPrody/IPrody&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Programming/IPrody/IPrody/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Database Script.insert.sql.executor": "Run",
+    "Maven.my-app [clean].executor": "Run",
+    "Maven.my-app [compile].executor": "Run",
+    "Maven.my-app [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "lesson-31",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/IPrody/IPrody",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Programming/IPrody/IPrody/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;249dd211-937b-4708-acb4-48e903edbdc4/database/\&quot;postgres\&quot;/schema/\&quot;Library\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "249dd211-937b-4708-acb4-48e903edbdc4/database/\"postgres\"/schema/\"Library\""
     ]
   }
-}</component>
-  <component name="RunManager" selected="Database Script.insert.sql">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\IPrody\IPrody\src\sqls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -105,10 +136,14 @@
       <data-source id="249dd211-937b-4708-acb4-48e903edbdc4" namespace="database/&quot;postgres&quot;/schema/&quot;Library&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Database Script.insert.sql" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.insert.sql" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Database Script.insert.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -139,10 +174,25 @@
       <workItem from="1761659334052" duration="72000" />
       <workItem from="1769630846494" duration="4006000" />
       <workItem from="1769705308395" duration="3779000" />
+      <workItem from="1769966277485" duration="4182000" />
+      <workItem from="1770059809975" duration="2706000" />
+      <workItem from="1770108708799" duration="3292000" />
+      <workItem from="1770124240317" duration="7455000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
