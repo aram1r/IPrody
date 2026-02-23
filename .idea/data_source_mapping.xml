@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/249dd211-937b-4708-acb4-48e903edbdc4/console.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/books.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/borrowed_books.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/delete.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/insert.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/joins.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/tcl.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+    <file url="file://$PROJECT_DIR$/src/sqls/update.sql" value="249dd211-937b-4708-acb4-48e903edbdc4" />
+  </component>
+</project>

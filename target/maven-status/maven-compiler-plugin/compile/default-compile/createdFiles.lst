@@ -1,0 +1,16 @@
+com\example\servlet\BooksServlet.class
+com\example\servlet\HelloServlet.class
+libraryAPI\model\Reader.class
+libraryAPI\dao\ReaderDAO.class
+com\example\servlet\LibraryServlet.class
+libraryAPI\model\Borrowed_book.class
+libraryAPI\dao\ReaderDaoImpl.class
+com\example\servlet\ReadersServlet.class
+Main.class
+libraryAPI\dao\BookDAO.class
+libraryAPI\model\Book.class
+libraryAPI\model\Status.class
+libraryAPI\dao\BookDAOImpl.class
+libraryAPI\DatabaseHandler.class
+libraryAPI\dao\BorrowedBooksDAO.class
+libraryAPI\dao\BorrowedBooksDaoImpl.class
