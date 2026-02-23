@@ -1,0 +1,16 @@
+D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\BooksServlet.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\HelloServlet.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\LibraryServlet.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\ReadersServlet.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\BookDAO.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\BookDAOImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\BorrowedBooksDAO.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\BorrowedBooksDaoImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\ReaderDAO.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\ReaderDaoImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\DatabaseHandler.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Book.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Borrowed_book.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Reader.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Status.java
+D:\Programming\IPrody\IPrody\src\main\java\Main.java
