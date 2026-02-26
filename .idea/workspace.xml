@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="my-app" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/WSServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/my-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/my-app-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/LibraryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/LibraryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/ReaderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/ReaderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/model/BorrowedBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/model/BorrowedBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/model/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Status.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +71,20 @@
     &quot;accountId&quot;: &quot;fbc711f9-9877-4e02-8873-a750793487f7&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -42,41 +93,184 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programming/IPrody/IPrody",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Programming/IPrody/IPrody/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.insert.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-app [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Server.executor&quot;: &quot;Run&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson-35&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/IPrody/IPrody&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Programming/IPrody/IPrody/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;249dd211-937b-4708-acb4-48e903edbdc4/database/\&quot;postgres\&quot;/schema/\&quot;Library\&quot;&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\IPrody\IPrody\src\main" />
+      <recent name="D:\Programming\IPrody\IPrody\src\main\java" />
+      <recent name="D:\Programming\IPrody\IPrody\src\sqls" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Server" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Server">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="IPrody" />
+      <module name="my-app" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insert.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/insert.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="249dd211-937b-4708-acb4-48e903edbdc4" namespace="database/&quot;postgres&quot;/schema/&quot;Library&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.18" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/my_app/hello" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Dconsole.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="my-app">
+          <settings>
+            <option name="CONTEXT_PATH" value="/my_app" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f36f93e8-442f-4c94-a484-7c024373e822" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60215" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="my-app" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Database Script.insert.sql" />
+      <item itemvalue="Tomcat Server.Server" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Database Script.insert.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -105,10 +299,38 @@
       <workItem from="1761591060424" duration="3094000" />
       <workItem from="1761652272507" duration="5835000" />
       <workItem from="1761659334052" duration="72000" />
+      <workItem from="1769630846494" duration="4006000" />
+      <workItem from="1769705308395" duration="3779000" />
+      <workItem from="1769966277485" duration="4182000" />
+      <workItem from="1770059809975" duration="2706000" />
+      <workItem from="1770108708799" duration="3292000" />
+      <workItem from="1770124240317" duration="7455000" />
+      <workItem from="1771427184383" duration="12772000" />
+      <workItem from="1771758745270" duration="1221000" />
+      <workItem from="1771866205290" duration="2939000" />
+      <workItem from="1771965609590" duration="1472000" />
+      <workItem from="1772035586990" duration="1532000" />
+      <workItem from="1772129530972" duration="6169000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/servlet/BorrowedBooksServlet.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
