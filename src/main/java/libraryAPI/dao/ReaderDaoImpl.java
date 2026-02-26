@@ -12,10 +12,10 @@ public class ReaderDaoImpl implements ReaderDAO {
 
     @Override
     public Reader addReader(Reader reader) {
-        Reader reader1 = null;
-        String sql = String.format("insert into \"Library\".readers (name, email, phone) values ('%s', '%s', '%s')", reader.getName(), reader.getEmail(), reader.getPhone());
-        System.out.println(sql);
-        return executeStatement(reader1, sql);
+        String sql = String.format("insert into \"Library\".readers (name, email, phone) values ('%s', '%s', '%s')",
+                reader.getName(), reader.getEmail(), reader.getPhone());
+
+        return executeInsert(reader, sql);
     }
 
     @Override
@@ -31,11 +31,14 @@ public class ReaderDaoImpl implements ReaderDAO {
         try (Connection conn = DatabaseHandler.getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, readerId);
             ResultSet resultSet = stmt.executeQuery();
-            Integer count = resultSet.getInt("COUNT(*)");
-            return count > 0;
+            if (resultSet.next()) {
+                int count = resultSet.getInt(1); // Берем первую (и единственную) колонку
+                return count > 0;
+            }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        return null;
     }
 
     private Reader executeStatement(Reader reader1, String sql) {
@@ -49,5 +52,21 @@ public class ReaderDaoImpl implements ReaderDAO {
             e.getMessage();
         }
         return reader1;
+    }
+
+    private Reader executeInsert(Reader reader, String sql) {
+        try (Connection conn = DatabaseHandler.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            int affectedRows = stmt.executeUpdate(); // Выполняем вставку
+
+            if (affectedRows > 0) {
+                System.out.println("Вставка прошла успешно");
+                return reader; // Возвращаем объект, чтобы сервис увидел, что он != null
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null; // Если вставка не удалась
     }
 }

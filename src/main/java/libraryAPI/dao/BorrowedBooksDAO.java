@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface BorrowedBooksDAO {
     List<BorrowedBook> getBorrowedBooks();
-    List<BorrowedBook> getBorrowedBooksWithStatus (Enum<Status> status);
+    List<BorrowedBook> getBorrowedBooksWithStatus (Status status);
     List<BorrowedBook> findAllBorrowedAfterDate(Date date);
     BorrowedBook addBorrowedBook(BorrowedBook borrowedBook);
     List<BorrowedBook> getBorrowedByReaderId(Integer readerId);

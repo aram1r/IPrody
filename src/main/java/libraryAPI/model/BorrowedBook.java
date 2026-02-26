@@ -1,6 +1,7 @@
 package libraryAPI.model;
 
-import java.sql.Date;
+import java.time.LocalDate;
+import java.util.Date;
 
 public class BorrowedBook{
     private Integer id;
@@ -8,9 +9,9 @@ public class BorrowedBook{
     private Integer reader_id;
     private Date borrow_date;
     private Date return_date;
-    private Enum<Status> status;
+    private Status status;
 
-    public BorrowedBook(Integer id, Integer book_id, Integer reader_id, Date borrow_date, Date return_date, Enum<Status> status) {
+    public BorrowedBook(Integer id, Integer book_id, Integer reader_id, Date borrow_date, Date return_date, Status status) {
         this.id = id;
         this.book_id = book_id;
         this.reader_id = reader_id;
@@ -63,11 +64,11 @@ public class BorrowedBook{
         this.return_date = return_date;
     }
 
-    public Enum<Status> getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(Enum<Status> status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 }
