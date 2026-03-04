@@ -10,37 +10,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/WSServletConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/BookResourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/BookResourceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/BorrowedBookResourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/BorrowedBookResourceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/ReaderResourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resource/ReaderResourceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/249dd211-937b-4708-acb4-48e903edbdc4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/libraryAPI/model/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/service/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/service/LibraryServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/service/WSServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/classes/com/example/servlet/LibraryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/sun-jaxws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/WEB-INF/sun-jaxws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/my_app/my-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/my_app/my-app-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/LibraryServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/WSServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/WSServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/BooksServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/BooksServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/BorrowedBooksServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/BorrowedBooksServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/HelloServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/LibraryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/LibraryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BookDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/BorrowedBooksDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/ReaderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/dao/ReaderDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/model/BorrowedBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/model/BorrowedBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/libraryAPI/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libraryAPI/model/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libraryAPI/model/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/servlet/ReadersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/servlet/ReadersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-jaxws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/LibraryServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/WSServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/BooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet$ReaderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/LibraryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servlet/ReadersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/LibraryServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/WSServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet$ReaderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/LibraryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/ReadersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/DatabaseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BookDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/ReaderDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/dao/ReaderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/BorrowedBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/classes/libraryAPI/model/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/service/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/service/LibraryServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/service/WSServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/BooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/BorrowedBooksServlet$ReaderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/LibraryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/com/example/servlet/ReadersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/angus-activation-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/angus-mail-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-3.52.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/gmbal-api-only-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/ha-api-3.1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.mail-api-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.soap-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.ws-api-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jaxb-core-4.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jaxb-impl-4.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/jaxws-rt-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/management-api-3.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/mimepull-1.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/saaj-impl-3.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/stax2-api-4.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/streambuffer-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/lib/woodstox-core-7.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/DatabaseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/BookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/BookDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/ReaderDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/dao/ReaderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/model/BorrowedBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/model/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/libraryAPI/model/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/WEB-INF/sun-jaxws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/service/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/service/LibraryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/service/LibraryServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/service/WSServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/BooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/BorrowedBooksServlet$ReaderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/BorrowedBooksServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/LibraryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/com/example/servlet/ReadersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/DatabaseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/BookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/BookDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/BorrowedBooksDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/BorrowedBooksDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/ReaderDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/dao/ReaderDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/model/BorrowedBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/model/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT/libraryAPI/model/Status.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,48 +203,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.insert.sql.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.my-app [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.my-app [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.my-app [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.my-app [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.my-app [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Server.executor&quot;: &quot;Run&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson-35&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/IPrody/IPrody&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Programming/IPrody/IPrody/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Database Script.insert.sql.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "Maven.my-app [clean].executor": "Run",
+    "Maven.my-app [compile].executor": "Run",
+    "Maven.my-app [install].executor": "Run",
+    "Maven.my-app [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.my-app [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
+    "Maven.my_app [clean].executor": "Run",
+    "Maven.my_app [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Server.executor": "Run",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "lesson-36",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/IPrody/IPrody",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Programming/IPrody/IPrody/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;249dd211-937b-4708-acb4-48e903edbdc4/database/\&quot;postgres\&quot;/schema/\&quot;Library\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "249dd211-937b-4708-acb4-48e903edbdc4/database/\"postgres\"/schema/\"Library\""
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\IPrody\IPrody\src\main" />
@@ -149,6 +263,14 @@
           <value>
             <map>
               <entry key="Server" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+              <entry key="generated-requests | #2" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -170,8 +292,14 @@
       <data-source id="249dd211-937b-4708-acb4-48e903edbdc4" namespace="database/&quot;postgres&quot;/schema/&quot;Library&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.18" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/my_app/hello" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/my_app/library/test" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Dconsole.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -265,10 +393,14 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Database Script.insert.sql" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Tomcat Server.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Database Script.insert.sql" />
       </list>
@@ -310,7 +442,8 @@
       <workItem from="1771866205290" duration="2939000" />
       <workItem from="1771965609590" duration="1472000" />
       <workItem from="1772035586990" duration="1532000" />
-      <workItem from="1772129530972" duration="6169000" />
+      <workItem from="1772129530972" duration="6852000" />
+      <workItem from="1772644331415" duration="7914000" />
     </task>
     <servers />
   </component>

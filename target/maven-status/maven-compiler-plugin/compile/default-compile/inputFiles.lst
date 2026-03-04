@@ -1,4 +1,15 @@
+D:\Programming\IPrody\IPrody\src\main\java\com\example\config\ApplicationConfig.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\resource\BookResourceImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\resource\BookResourceInterface.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\resource\BorrowedBookResourceInterface.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\resource\ReaderResourceInterface.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\resource\TestResourceExample.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\service\AppInitializer.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\service\LibraryService.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\service\LibraryServiceInterface.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\service\WSServletConfig.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\BooksServlet.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\BorrowedBooksServlet.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\HelloServlet.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\LibraryServlet.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\servlet\ReadersServlet.java
@@ -10,7 +21,7 @@ D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\ReaderDAO.java
 D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\dao\ReaderDaoImpl.java
 D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\DatabaseHandler.java
 D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Book.java
-D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Borrowed_book.java
+D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\BorrowedBook.java
 D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Reader.java
 D:\Programming\IPrody\IPrody\src\main\java\libraryAPI\model\Status.java
 D:\Programming\IPrody\IPrody\src\main\java\Main.java

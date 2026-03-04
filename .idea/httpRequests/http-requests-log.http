@@ -1,0 +1,48 @@
+POST http://localhost:8081/my_app/library/books/addbook
+Content-Type: application/json
+Content-Length: 82
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "title": "",
+  "author": "",
+  "published_year": 0,
+  "genre": ""
+}
+
+<> 2026-03-04T234144.405.html
+
+###
+
+POST http://localhost:8081/my_app/library/books/addbook
+Content-Type: application/json
+Content-Length: 82
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "title": "",
+  "author": "",
+  "published_year": 0,
+  "genre": ""
+}
+
+<> 2026-03-04T234130.405.html
+
+###
+
+POST http://localhost:8081/library/books/addbook
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-03-04T234105.404.html
+
+###
+
