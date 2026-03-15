@@ -1,11 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IPrody:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPrody.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BorrowedBookResourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BorrowedBookResourceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/ReaderResourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/ReaderResourceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/controller/BorrowedBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/controller/ReaderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/controller/RestContoller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/entity/BorrowedBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/entity/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/repository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/repository/BorrowedBookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/repository/ReaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/resource/BookResourceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/resource/BookResourceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/${project.build.directory}/classes/com/iprody/library/util/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RestHibernate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RestHibernate/RestHibernate.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestHibernate/RestHibernate.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/BorrowedBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/BorrowedBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/repository/ReaderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BookResourceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BookResourceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BookResourceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iprody/library/resource/BookResourceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/repository/ReaderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/repository/ReaderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/resource/BookResourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/com/iprody/library/resource/BookResourceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.29.2-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-hk2-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iprody/library/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iprody/library/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iprody/library/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iprody/library/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iprody/library/repository/ReaderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iprody/library/repository/ReaderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iprody/library/resource/BookResourceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/iprody/library/resource/BookResourceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +93,17 @@
     &quot;accountId&quot;: &quot;fbc711f9-9877-4e02-8873-a750793487f7&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -46,11 +116,20 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.app [compile].executor": "Run",
+    "Maven.hibernate-project [clean].executor": "Run",
+    "Maven.hibernate-project [compile].executor": "Run",
+    "Maven.hibernate-project [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 11.0.18.executor": "Run",
+    "git-widget-placeholder": "lesson-39",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/IPrody/IPrody",
     "node.js.detected.package.eslint": "true",
@@ -59,13 +138,38 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Programming/IPrody/IPrody/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 11.0.18" value="FAILED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="generated-requests | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.18">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -74,8 +178,105 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 11.0.18" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.18" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="IPrody:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2a377938-f7d8-47f3-b780-4a22c1d97b68" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55554" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IPrody:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="Tomcat Server.Tomcat 11.0.18" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -105,6 +306,10 @@
       <workItem from="1761591060424" duration="3094000" />
       <workItem from="1761652272507" duration="5835000" />
       <workItem from="1761659334052" duration="72000" />
+      <workItem from="1773171442812" duration="3937000" />
+      <workItem from="1773332377611" duration="7640000" />
+      <workItem from="1773411106849" duration="594000" />
+      <workItem from="1773581883106" duration="3576000" />
     </task>
     <servers />
   </component>
