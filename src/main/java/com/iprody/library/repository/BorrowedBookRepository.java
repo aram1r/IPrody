@@ -1,6 +1,6 @@
 package com.iprody.library.repository;
 
-import com.iprody.library.entity.Book;
+
 import com.iprody.library.entity.BorrowedBook;
 import com.iprody.library.util.HibernateUtil;
 import org.hibernate.Session;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BorrowedBookRepository {
 
-    public void save(BorrowedBook borrowedBook) {
+    public BorrowedBook save(BorrowedBook borrowedBook) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             transaction = session.beginTransaction();
@@ -20,6 +20,7 @@ public class BorrowedBookRepository {
             if (transaction != null) transaction.rollback();
             e.printStackTrace();
         }
+        return borrowedBook;
     }
 
     public BorrowedBook findById(Long id) {

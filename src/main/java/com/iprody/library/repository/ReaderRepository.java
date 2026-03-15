@@ -1,5 +1,6 @@
 package com.iprody.library.repository;
 
+
 import com.iprody.library.entity.Reader;
 import com.iprody.library.util.HibernateUtil;
 import org.hibernate.Session;
@@ -9,7 +10,7 @@ import java.util.List;
 
 public class ReaderRepository {
 
-    public void save(Reader reader) {
+    public Reader save(Reader reader) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             transaction = session.beginTransaction();
@@ -19,6 +20,7 @@ public class ReaderRepository {
             if (transaction != null) transaction.rollback();
             e.printStackTrace();
         }
+        return reader;
     }
 
     public Reader findById(Long id) {

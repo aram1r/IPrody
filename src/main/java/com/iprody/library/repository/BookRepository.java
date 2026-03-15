@@ -1,5 +1,6 @@
 package com.iprody.library.repository;
 
+
 import com.iprody.library.entity.Book;
 import com.iprody.library.util.HibernateUtil;
 import org.hibernate.Session;
@@ -30,6 +31,22 @@ public class BookRepository {
     public Book findById(Long id) {
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             return session.get(Book.class, id);
+        }
+    }
+
+    public List<Book> findBorrowedBooksByReaderId(Long readerId) {
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            String hql = "SELECT b FROM BorrowedBook bb " +
+                    "JOIN bb.book b " +
+                    "WHERE bb.reader.id = :readerId " +
+                    "AND bb.status = 'borrowed'";
+
+            return session.createQuery(hql, Book.class)
+                    .setParameter("readerId", readerId)
+                    .list();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return List.of();
         }
     }
 
