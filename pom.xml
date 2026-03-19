@@ -8,7 +8,7 @@
     <groupId>com.example</groupId>
     <artifactId>my-app</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>My Application</name>
 
@@ -51,18 +51,62 @@
             <artifactId>postgresql</artifactId>
             <version>42.7.3</version> <!-- Или любая актуальная версия -->
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>7.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
+        <finalName>SpringJdbc</finalName>
         <plugins>
+<!--            &lt;!&ndash; Плагин для компиляции &ndash;&gt;-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.14.0</version>-->
+<!--                <configuration>-->
+<!--                    <source>21</source>-->
+<!--                    <target>21</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.5.0</version>
+                <configuration>
+                    <fileset>
+                        <directory>
+                            C:\Program Files\Apache Software Foundation\apache-tomcat-11.0.18\webapps\SpringJdbc
+                        </directory>
+                        <icludes>**</icludes>
+                    </fileset>
+                </configuration>
+            </plugin>
             <!-- Плагин для компиляции -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.5.0</version>
                 <configuration>
-                    <source>21</source>
-                    <target>21</target>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>C:\Program Files\Apache Software Foundation\apache-tomcat-11.0.18\webapps\</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>

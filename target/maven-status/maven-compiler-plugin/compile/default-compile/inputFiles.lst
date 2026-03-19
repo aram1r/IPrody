@@ -1,2 +1,15 @@
-D:\Programming\IPrody\IPrody\src\main\java\entity\Product.java
-D:\Programming\IPrody\IPrody\src\main\java\repository\ProductRepository.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\AppConfig.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\contoller\AuthorController.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\AuthorDao.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\AuthorDaoImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\BookDao.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\BookDaoImpl.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\JdbcConfig.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\mapper\AuthorResultSetExtractor.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\mapper\AuthorRowMapper.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\mapper\BookResultSetExtractor.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\mapper\BookRowMapper.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\model\Author.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\model\Book.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\WebApplicationInitializer.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\WebConfig.java
