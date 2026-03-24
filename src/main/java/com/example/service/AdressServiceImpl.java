@@ -34,7 +34,7 @@ public class AdressServiceImpl implements AdressService {
     }
 
     @Override
-    public void create(List<Adress> adresses) {
+    public void create(List<Adress> addresses) {
 
     }
 }

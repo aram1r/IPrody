@@ -1,6 +1,7 @@
 D:\Programming\IPrody\IPrody\src\main\java\com\example\AppConfig.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\controller\UserController.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\AdressDao.java
+D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\AdressesDaoImpl.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\UserDao.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\dao\UserDaoImpl.java
 D:\Programming\IPrody\IPrody\src\main\java\com\example\JdbcConfig.java

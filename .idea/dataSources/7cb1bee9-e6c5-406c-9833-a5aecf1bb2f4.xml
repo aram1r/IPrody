@@ -65240,10 +65240,10 @@ false Zulu
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="7518" parent="276" name="adresses">
+    <table id="7518" parent="276" name="addresses">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>32870</ObjectId>
-      <StateNumber>1071</StateNumber>
+      <StateNumber>1075</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -94919,6 +94919,7 @@ false Zulu
     </column>
     <foreign-key id="15485" parent="7518" name="addresses_user_id_fkey">
       <ColNames>user_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
       <ObjectId>32879</ObjectId>
       <OnDelete>cascade</OnDelete>
       <StateNumber>1068</StateNumber>
@@ -94927,6 +94928,7 @@ false Zulu
     </foreign-key>
     <index id="15486" parent="7518" name="addresses_pkey">
       <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
       <ObjectId>32877</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1068</StateNumber>
@@ -94934,6 +94936,7 @@ false Zulu
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="15487" parent="7518" name="addresses_pkey">
+      <NameSurrogate>1</NameSurrogate>
       <ObjectId>32878</ObjectId>
       <Primary>1</Primary>
       <StateNumber>1068</StateNumber>

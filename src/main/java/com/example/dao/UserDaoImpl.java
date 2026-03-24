@@ -89,4 +89,9 @@ public class UserDaoImpl implements UserDao {
             }
         });
     }
+
+    @Override
+    public User findByEmail(String email) {
+        return null;
+    }
 }

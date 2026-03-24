@@ -28,20 +28,20 @@ public class AdressResultSetExtractor implements ResultSetExtractor<List<Adress>
 
     @Override
     public @Nullable List<Adress> extractData(ResultSet rs) throws SQLException, DataAccessException {
-        Map<Integer,Adress> adresses = new HashMap<>();
+        Map<Integer,Adress> addresses = new HashMap<>();
         while (rs.next()) {
             var adressId = rs.getInt("a_id");
-            Adress adress = adresses.getOrDefault(adressId, adressRowMapper.mapRow(rs, rs.getRow()));
+            Adress adress = addresses.getOrDefault(adressId, adressRowMapper.mapRow(rs, rs.getRow()));
             if (rs.getObject("u_id", Integer.class) != null) {
                 if (adress.getUsers() == null) {
                     adress.setUsers(new ArrayList<>());
                 }
                 adress.getUsers().add(userRowMapper.mapRow(rs, rs.getRow()));
             }
-            if (!adresses.containsKey(adressId)) {
-                adresses.put(adressId, adress);
+            if (!addresses.containsKey(adressId)) {
+                addresses.put(adressId, adress);
             }
         }
-        return adresses.values().stream().toList();
+        return addresses.values().stream().toList();
     }
 }

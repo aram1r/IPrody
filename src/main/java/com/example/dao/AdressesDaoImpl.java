@@ -29,7 +29,7 @@ public class AdressesDaoImpl implements AdressDao {
     @Override
     public void create(Adress adress) {
         try {
-            jdbcTemplate.update("INSERT INTO users.adresses(street, city, postal_code, user_id) VALUES(?,?,?,?)",
+            jdbcTemplate.update("INSERT INTO users.addresses(street, city, postal_code, user_id) VALUES(?,?,?,?)",
                     adress.getStreet(), adress.getCity(), adress.getPostalCode(), adress.getUserId());
         } catch (DataAccessException e) {
             e.printStackTrace();
@@ -39,14 +39,14 @@ public class AdressesDaoImpl implements AdressDao {
     @Override
     public List<Adress> findAll() {
         // Используем BeanPropertyRowMapper для автоматического маппинга полей
-        return jdbcTemplate.query("SELECT id, street, city, postal_code as postalCode, user_id as userId FROM users.adresses",
+        return jdbcTemplate.query("SELECT id, street, city, postal_code as postalCode, user_id as userId FROM users.addresses",
                 adressResultSetExtractor);
     }
 
     @Override
     public void update(Adress adress) {
         try {
-            jdbcTemplate.update("UPDATE users.adresses SET street = ?, city = ?, postal_code = ?, user_id = ? WHERE id = ?",
+            jdbcTemplate.update("UPDATE users.addresses SET street = ?, city = ?, postal_code = ?, user_id = ? WHERE id = ?",
                     adress.getStreet(), adress.getCity(), adress.getPostalCode(), adress.getUserId(), adress.getId());
         } catch (DataAccessException e) {
             e.printStackTrace();
@@ -56,7 +56,7 @@ public class AdressesDaoImpl implements AdressDao {
     @Override
     public void delete(Adress adress) {
         try {
-            jdbcTemplate.update("DELETE FROM users.adresses WHERE id = ?", adress.getId());
+            jdbcTemplate.update("DELETE FROM users.addresses WHERE id = ?", adress.getId());
         } catch (DataAccessException e) {
             e.printStackTrace();
         }
@@ -65,7 +65,7 @@ public class AdressesDaoImpl implements AdressDao {
     @Override
     public Adress findById(int id) {
         try {
-            Adress result = jdbcTemplate.query("SELECT id, street, city, postal_code as postalCode, user_id as userId FROM users.adresses WHERE id = ?",
+            Adress result = jdbcTemplate.query("SELECT id, street, city, postal_code as postalCode, user_id as userId FROM users.addresses WHERE id = ?",
                     adressResultSetExtractor, id).getFirst();
             return result;
         } catch (DataAccessException e) {
@@ -74,20 +74,20 @@ public class AdressesDaoImpl implements AdressDao {
     }
 
     @Override
-    public void create(List<Adress> adresses) {
-        jdbcTemplate.batchUpdate("INSERT INTO users.adresses(street, city, postal_code, user_id) VALUES(?,?,?,?)",
+    public void create(List<Adress> addresses) {
+        jdbcTemplate.batchUpdate("INSERT INTO users.addresses(street, city, postal_code, user_id) VALUES(?,?,?,?)",
                 new BatchPreparedStatementSetter() {
                     @Override
                     public void setValues(PreparedStatement ps, int i) throws SQLException {
-                        ps.setString(1, adresses.get(i).getStreet());
-                        ps.setString(2, adresses.get(i).getCity());
-                        ps.setString(3, adresses.get(i).getPostalCode());
-                        ps.setInt(4, adresses.get(i).getUserId());
+                        ps.setString(1, addresses.get(i).getStreet());
+                        ps.setString(2, addresses.get(i).getCity());
+                        ps.setString(3, addresses.get(i).getPostalCode());
+                        ps.setInt(4, addresses.get(i).getUserId());
                     }
 
                     @Override
                     public int getBatchSize() {
-                        return adresses.size();
+                        return addresses.size();
                     }
                 });
     }

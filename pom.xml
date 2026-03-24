@@ -78,6 +78,16 @@
             <version>3.2.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>7.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>7.0.4</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -98,12 +108,14 @@
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <fileset>
-                        <directory>
-                            C:\Program Files\Apache Software Foundation\apache-tomcat-11.0.18\webapps\SpringJdbc
-                        </directory>
-                        <icludes>**</icludes>
-                    </fileset>
+                    <filesets>
+                        <fileset>
+                            <directory>
+                                C:\Program Files\Apache Software Foundation\apache-tomcat-11.0.18\webapps\SpringJdbc
+                            </directory>
+                            <icludes>**</icludes>
+                        </fileset>
+                    </filesets>
                 </configuration>
             </plugin>
             <!-- Плагин для компиляции -->

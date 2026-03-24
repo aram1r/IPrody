@@ -11,4 +11,5 @@ public interface UserDao {
     void delete(User user);
     User findById(int id);
     void create(List<User> users);
+    User findByEmail(String email);
 }

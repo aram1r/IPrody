@@ -10,5 +10,5 @@ public interface AdressService {
     void update(Adress adress);
     void delete(Adress adress);
     Adress findById(int id);
-    void create(List<Adress> adresses);
+    void create(List<Adress> addresses);
 }
