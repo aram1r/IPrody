@@ -1,6 +1,6 @@
 package com.example.mapper;
 
-import com.example.model.Adress;
+import com.example.model.Address;
 import com.example.model.User;
 import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,36 +10,34 @@ import org.springframework.stereotype.Component;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Component
-public class AdressResultSetExtractor implements ResultSetExtractor<List<Adress>> {
+public class AdressResultSetExtractor implements ResultSetExtractor<List<Address>> {
     private final UserRowMapper userRowMapper;
-    private final AdressRowMapper adressRowMapper;
+    private final AddressRowMapper addressRowMapper;
 
     @Autowired
-    public AdressResultSetExtractor(UserRowMapper userRowMapper, AdressRowMapper adressRowMapper) {
+    public AdressResultSetExtractor(UserRowMapper userRowMapper, AddressRowMapper addressRowMapper) {
         this.userRowMapper = userRowMapper;
-        this.adressRowMapper = adressRowMapper;
+        this.addressRowMapper = addressRowMapper;
     }
 
     @Override
-    public @Nullable List<Adress> extractData(ResultSet rs) throws SQLException, DataAccessException {
-        Map<Integer,Adress> addresses = new HashMap<>();
+    public @Nullable List<Address> extractData(ResultSet rs) throws SQLException, DataAccessException {
+        Map<Integer,Address> addresses = new HashMap<>();
         while (rs.next()) {
-            var adressId = rs.getInt("a_id");
-            Adress adress = addresses.getOrDefault(adressId, adressRowMapper.mapRow(rs, rs.getRow()));
+            var addressId = rs.getInt("a_id");
+            Address address = addresses.getOrDefault(addressId, addressRowMapper.mapRow(rs, rs.getRow()));
             if (rs.getObject("u_id", Integer.class) != null) {
-                if (adress.getUsers() == null) {
-                    adress.setUsers(new ArrayList<>());
-                }
-                adress.getUsers().add(userRowMapper.mapRow(rs, rs.getRow()));
+                User user = userRowMapper.mapRow(rs, rs.getRow());
+                address.setUser(user);
+                user.setAddress(address);
             }
-            if (!addresses.containsKey(adressId)) {
-                addresses.put(adressId, adress);
+            if (!addresses.containsKey(addressId)) {
+                addresses.put(addressId, address);
             }
         }
         return addresses.values().stream().toList();

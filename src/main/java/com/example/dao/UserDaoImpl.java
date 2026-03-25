@@ -2,6 +2,7 @@ package com.example.dao;
 
 import com.example.mapper.UserResultSetExtractor;
 import com.example.model.User;
+import jakarta.persistence.NoResultException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
@@ -36,8 +37,8 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List<User> findAll() {
-        return jdbcTemplate.query("select u.id as u_id, u.name as u_name, u.email as u_email, a.id as a_id, a.user_id as a_user_id, a.street as a_street, a.city as a_city, a.postal_code as a_postal_code " +
-                "from users.users u left join users.adresses a on u.id=a.user_id", userResultSetExtractor);
+        return jdbcTemplate.query("SELECT u.id as u_id, u.name as u_name, u.email as u_email, u.password as u_password, u.enabled as u_enabled, a.id as a_id, a.user_id as a_user_id, a.street as a_street, a.city as a_city, a.postal_code as a_postal_code, au.id as au_id, au.user_id as au_user_id, au.authority as au_authority " +
+                "FROM users.users u left join users.authorities au on u.id = au.user_id left join users.addresses a on u.id = a.user_id", userResultSetExtractor);
     }
 
     @Override
@@ -59,9 +60,10 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public User findById(int id) {
-        List<User> users = jdbcTemplate.query("select u.id as u_id, u.name as u_name, u.email as u_email, a.id as a_id, a.user_id as a_user_id, a.street as a_street, a.city as a_city, a.postal_code as a_postal_code " +
-                "from users.users u left join users.adresses a on u.id=a.user_id where u.id=?", userResultSetExtractor, id);
+    public User findById(long id) {
+        List<User> users = jdbcTemplate.query("SELECT u.id as u_id, u.name as u_name, u.email as u_email, u.password as u_password, u.enabled as u_enabled, a.id as a_id, a.user_id as a_user_id, a.street as a_street, a.city as a_city, a.postal_code as a_postal_code, au.id as au_id, au.user_id as au_user_id, au.authority as au_authority " +
+                "FROM users.users u left join users.authorities au on u.id = au.user_id left join users.addresses a on u.id = a.user_id WHERE u.id = ?", userResultSetExtractor, id);
+
         if (users==null || users.isEmpty()) {
             return null;
         }
@@ -92,6 +94,13 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findByEmail(String email) {
-        return null;
+        try {
+            return jdbcTemplate.query(
+                            "SELECT u.id as u_id, u.name as u_name, u.email as u_email, u.password as u_password, u.enabled as u_enabled, a.id as a_id, a.user_id as a_user_id, a.street as a_street, a.city as a_city, a.postal_code as a_postal_code, au.id as au_id, au.user_id as au_user_id, au.authority as au_authority " +
+                                    "FROM users.users u left join users.authorities au on u.id = au.user_id left join users.addresses a on u.id = a.user_id WHERE u.email = ?", userResultSetExtractor, email).getFirst();
+        } catch (NoResultException e) {
+            // Если пользователь не найден, возвращаем null
+            return null;
+        }
     }
 }

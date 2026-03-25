@@ -1,6 +1,6 @@
 package com.example.mapper;
 
-import com.example.model.Adress;
+import com.example.model.Authority;
 import com.example.model.User;
 import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,10 +18,10 @@ import java.util.Map;
 @Component
 public class UserResultSetExtractor implements ResultSetExtractor<List<User>>{
     private final UserRowMapper userRowMapper;
-    private final AdressRowMapper adressRowMapper;
+    private final AddressRowMapper adressRowMapper;
 
     @Autowired
-    public UserResultSetExtractor(UserRowMapper userRowMapper, AdressRowMapper adressRowMapper) {
+    public UserResultSetExtractor(UserRowMapper userRowMapper, AddressRowMapper adressRowMapper) {
         this.userRowMapper = userRowMapper;
         this.adressRowMapper = adressRowMapper;
     }
@@ -32,15 +32,24 @@ public class UserResultSetExtractor implements ResultSetExtractor<List<User>>{
         while (rs.next()) {
             var userId = rs.getInt("u_id");
             User user = users.getOrDefault(userId, userRowMapper.mapRow(rs, rs.getRow()));
-            if (rs.getObject("u_id", Integer.class) != null) {
-                if (user.getAdress() == null) {
-                    user.setAdress(new Adress());
-                }
-                user.setAdress(adressRowMapper.mapRow(rs, rs.getRow()));
+
+            if (rs.getObject("a_id", Integer.class) != null) {
+                user.setAddress(adressRowMapper.mapRow(rs, rs.getRow()));
             }
+
+            if (rs.getObject("au_id") != null) {
+                if (user.getAuthorities()==null) {
+                    user.setAuthorities(new ArrayList<>());
+                }
+                Authority authority = new Authority();
+                authority.setAuthority(rs.getString("au_authority"));
+                user.getAuthorities().add(authority);
+            }
+
             if (!users.containsKey(userId)) {
                 users.put(userId, user);
             }
+
         }
         return users.values().stream().toList();
     }

@@ -37,4 +37,10 @@ public class UserController{
         model.addAttribute("user", userService.findById(id));
         return "user-by-id";
     }
+
+    @GetMapping("basic/{id}")
+    public String getBasicUser(@PathVariable("id") int id, Model model) {
+        model.addAttribute("user", userService.findById(id));
+        return "basic-user-by-id";
+    }
 }

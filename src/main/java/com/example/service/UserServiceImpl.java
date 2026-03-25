@@ -45,4 +45,9 @@ public class UserServiceImpl implements UserService {
     public void create(List<User> users) {
         userDao.create(users);
     }
+
+    @Override
+    public User getBasicUserById(long id) {
+        return userDao.findById(id);
+    }
 }

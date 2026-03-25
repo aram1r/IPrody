@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/example/dao/UserDaoImpl.java" value="7cb1bee9-e6c5-406c-9833-a5aecf1bb2f4" />
+    <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" value="1388db2a-8210-4570-b0a3-7f51302bc324" />
   </component>
 </project>

@@ -6,30 +6,22 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
-
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-@Table(name="adresses", schema="users")
+@Table(name="authorities", schema="users")
 @Entity
-public class Adress {
-
-    @Column
-    private String street;
-    @Column
-    private String city;
-    @Column(name="postal_code")
-    private String postalCode;
+public class Authority {
     @Id
     @Column
-    private int id;
+    private long id;
     @Column(name="user_id")
     private int userId;
+    @Column(name="authority")
+    private String authority;
 
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name = "user_id")
-    private List<User> users;
-
+    private User user;
 }
