@@ -5,39 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339f128a-eff0-44c4-94c9-63365b23daae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controller/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/service/OrderServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/config/AppServiceAutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/controller/AppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/AppService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/CashierService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/EnglishAppService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/RubCashierServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/SpainAppService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/UsdCashierServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/config/AppServiceAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/AppService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/CashierService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/EnglishAppService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/RubCashierServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/SpainAppService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/UsdCashierServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/entity/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/main/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-app-1.0-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +77,17 @@
 }</component>
   <component name="ProjectId" id="34OCk8BpFlVfRHZezpVdqJpqi4j" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "JUnit.OrderControllerTest.executor": "Run",
+    "Maven.my-app [clean].executor": "Run",
     "Maven.my-app [compile].executor": "Run",
     "Maven.my-app [install].executor": "Run",
+    "Maven.my-app [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -104,7 +100,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "lesson-45",
+    "git-widget-placeholder": "lesson-46",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Programming/IPrody/IPrody",
@@ -133,11 +129,41 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.OrderRepositoryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="IPrody" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controller.OrderControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.repository.OrderRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +176,13 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="my-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="my-app" />
@@ -166,6 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderRepositoryTest" />
+        <item itemvalue="JUnit.OrderControllerTest" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.Main" />
       </list>
@@ -207,5 +242,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
