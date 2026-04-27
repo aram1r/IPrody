@@ -1,0 +1,16 @@
+com\iprody\productservice\generated\api\ProductsApi.class
+com\iprody\productservice\generated\model\ErrorResponse.class
+com\iprody\productservice\generated\api\ProductsApiController$1.class
+com\iprody\productservice\ProductServiceApplication.class
+org\openapitools\OpenApiGeneratorApplication.class
+com\iprody\productservice\generated\api\ProductsApiDelegate.class
+org\openapitools\RFC3339DateFormat.class
+com\iprody\productservice\generated\api\ApiUtil.class
+com\iprody\productservice\model\ProductEntity.class
+com\iprody\productservice\services\ProductsApiDelegateService.class
+com\iprody\productservice\generated\api\ProductsApiController.class
+com\iprody\productservice\generated\api\ProductsApi$1.class
+com\iprody\productservice\repository\ProductRepository.class
+com\iprody\productservice\generated\model\Product.class
+org\openapitools\configuration\SpringDocConfiguration.class
+org\openapitools\configuration\HomeController.class

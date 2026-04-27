@@ -1,0 +1,197 @@
+openapi: 3.0.0
+info:
+  description: API for managing products.
+  title: Product Management API
+  version: 1.0.0
+servers:
+- description: Local development server
+  url: http://localhost:8080/api
+paths:
+  /products:
+    get:
+      operationId: getAllProducts
+      parameters:
+      - explode: true
+        in: query
+        name: limit
+        required: false
+        schema:
+          default: 25
+          type: integer
+        style: form
+      - explode: true
+        in: query
+        name: offset
+        required: false
+        schema:
+          default: 0
+          type: integer
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Product'
+                type: array
+          description: List of products
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Internal server error
+      summary: Find all products
+      x-accepts:
+      - application/json
+    post:
+      operationId: createProduct
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: Product successfully created
+        "400":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Bad request
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Internal server error
+      summary: Create a product
+      x-content-type: application/json
+      x-accepts:
+      - application/json
+    put:
+      operationId: deactivateProduct
+      parameters:
+      - description: The name of the product to deactivate
+        explode: true
+        in: query
+        name: id
+        required: true
+        schema:
+          type: integer
+        style: form
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Product'
+                type: array
+          description: Deactivate product
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Product not found
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Internal server error
+      summary: Deactivate product by id
+      x-accepts:
+      - application/json
+  /products/{id}:
+    get:
+      operationId: getProductById
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          type: integer
+        style: simple
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: Product found
+        "404":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Product not found
+        "500":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          description: Internal server error
+      summary: Find a product by ID
+      x-accepts:
+      - application/json
+components:
+  schemas:
+    Product:
+      example:
+        price: 6.0274563
+        name: name
+        discount: 1.4658129
+        active: true
+        currency: currency
+        id: 0
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        price:
+          format: float
+          type: number
+        currency:
+          type: string
+        discount:
+          format: float
+          type: number
+        active:
+          type: boolean
+      required:
+      - currency
+      - name
+      - price
+      type: object
+    ErrorResponse:
+      example:
+        resourceGuid: resourceGuid
+        details:
+        - details
+        - details
+        message: message
+      properties:
+        message:
+          type: string
+        details:
+          items:
+            type: string
+          type: array
+        resourceGuid:
+          type: string
+      required:
+      - details
+      - message
+      - resourceGuid
+      type: object
